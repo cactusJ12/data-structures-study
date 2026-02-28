@@ -18,5 +18,7 @@ class Solution:
         # - early exit if lengths differ
         # - iterate both strings simultaneously with zip, tallying each character
         # - anagram if both frequency maps match
+        # Time: O(n) | Space: O(n)
+
 
         # return sorted(s) == sorted(t) works too.
