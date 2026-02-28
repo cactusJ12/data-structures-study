@@ -13,3 +13,10 @@ class Solution:
             count_t[char_t] += 1
 
         return count_s == count_t
+
+        # Approach: track character frequencies using two hashmaps
+        # - early exit if lengths differ
+        # - iterate both strings simultaneously with zip, tallying each character
+        # - anagram if both frequency maps match
+
+        # return sorted(s) == sorted(t) works too.
