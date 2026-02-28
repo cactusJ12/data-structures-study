@@ -23,9 +23,5 @@ class Solution:
                 Hashsets.add(n)
                 
         return False
-    
-#What are Hashmaps Hashsets Hashtables?
-#
-
 
 
